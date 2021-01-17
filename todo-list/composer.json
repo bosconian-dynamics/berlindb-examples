@@ -1,0 +1,26 @@
+{
+    "name": "berlindb-examples/todo-list",
+    "description": "Todo List BerlinDB example",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Adam Bosco",
+            "email": "github@adambos.co"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "BerlinDB\\Examples\\TodoList\\": "includes"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/berlindb/core"
+        }
+    ],
+    "require": {
+        "berlindb/core": "dev-release/2.0.0"
+    }
+}
