@@ -10,9 +10,7 @@
     ],
     "type": "wordpress-plugin",
     "autoload": {
-        "psr-4": {
-            "BerlinDB\\Examples\\TodoList\\": "includes"
-        }
+		"files": [ "includes/autoloader.php" ]
     },
     "repositories": [
         {
